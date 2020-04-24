@@ -167,7 +167,7 @@ body {
   padding: 20px;
 }
 .sale__form, .sale__figure{
-  border-radius: 2px;
+  border-radius: 4px;
   border: 1px solid #ecebf6;
   margin: 0 10px;
   padding: 10px;
@@ -179,7 +179,7 @@ label {
   margin-bottom: 20px;
   height: 35px;
   border-radius: 2px;
-  border: 1px solid var(--dark-color);
+  border: 1px solid var(--second-color);
   width: 100%;
 }
 .sale__button{
@@ -200,6 +200,34 @@ label {
   justify-content: space-around;
 }
 
-
+/* RESULTS */
+.result{
+  height: 100vh;
+  background-color: var(--dark-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--clear-color);
+}
+.result img{
+  width: 200px;
+}
+.result a {
+  color: black;
+}
+.result__container{
+  text-align: center;
+}
+.result__images{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.result__images img{
+  margin-bottom: 20px;
+}
+.result__images img:nth-child(2){
+  width: 150px;
+}
 
 

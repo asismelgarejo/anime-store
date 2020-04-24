@@ -1,0 +1,205 @@
+
+/*-------------------VARIABLES*/
+
+
+:root{
+  --clear-color: white;
+  --dark-color: #453C2C;
+  --second-color: #BAC3D3;
+  --phrase-font:'Segoe UI';
+  --shadow: 0 3px 6px black;
+}
+
+/*-------------------VARIABLES*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--phrase-font), Helvetica, sans-serif;
+  color: var(--dark-color);
+}
+.header {
+  background-color: var(--dark-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+.anime__logo img{
+  height: 50px;
+  margin-left: 27px;
+}
+
+.menu ul{
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.menu ul li {
+  margin-right: 44px;
+}
+.menu li a{
+  text-decoration: none;
+  color: var(--clear-color);
+}
+.menu  li a:hover{
+  color: var(--second-color);
+}
+
+/* ----------------------PRODUCT */
+.hero {
+  text-align: center;
+}
+.hero h1 {
+  width: 50%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.products {
+  background-image: url("../images/curve.png");
+  display: flex;
+  background-position: center top;
+  background-size: cover;
+  padding: 40px 20%;
+  justify-content: space-around;
+}
+
+.product {
+  width: 250px;
+  padding: 28px;
+  text-align: center;
+  box-shadow: var(--shadow);
+  background-color: var(--clear-color);
+  margin-top: -50px;
+}
+.product img {
+  width: 100%;
+}
+.product button{
+  width: 100%;
+  padding: 10px;
+  background-color: var(--second-color);
+  border: none;
+  border-radius: 2px;
+  font-family: var(--phrase-font);
+  color: var(--dark-color);
+  cursor: pointer;
+}
+
+.product button:hover{
+  background-color: var(--dark-color);
+  color: var(--clear-color);
+}
+
+/* ----------------------PRODUCT */
+
+/* ---------------benefit */
+.benefit{
+  max-width: 80%;
+  display: flex;
+  margin: 80px auto 0;
+  justify-content: space-around;
+  
+}
+.benefit__item{
+  width: 20%;
+  text-align: center;
+  padding: 0 20px;
+}
+.benefit__item img{
+  width: 80%;
+}
+/* -----------------MENTIONS */
+.mention{
+  max-width: 80%;
+  margin: 0px auto 40px;
+  text-align: center;
+}
+.mention__item--container{
+  display: flex;
+  justify-content: space-around;
+}
+.mention__item{
+  width: 20%;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+.mention__item--image{
+ height: 140px;
+ overflow: hidden;
+ object-fit: fill;
+ vertical-align: middle;
+}
+.mention__item img{
+  width: 100%;
+}
+
+/* ----------------FOOTER */
+.footer {
+  background-color: var(--dark-color);
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--clear-color);
+  align-items: center;
+  padding: 20px 20px;
+}
+.footer a {
+  color: var(--clear-color);
+}
+
+/* ------PRODUCT SECTION */
+.container{
+  width: 80%;
+}
+.container img{ 
+  width: 100%;
+}
+
+/* ---------------------VENTAS */
+.sale{
+  height: calc(100vh - 200px);
+}
+.row {
+  padding: 20px;
+}
+.sale__form, .sale__figure{
+  border-radius: 2px;
+  border: 1px solid #ecebf6;
+  margin: 0 10px;
+  padding: 10px;
+}
+label {
+  margin-bottom: 10px;
+}
+.sale input {
+  margin-bottom: 20px;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid var(--dark-color);
+  width: 100%;
+}
+.sale__button{
+  background-color: var(--second-color);
+  border: none;
+  border-radius: 2px;
+  font-family: var(--phrase-font);
+  color: var(--dark-color);
+  cursor: pointer;
+}
+.sale__button:hover{
+  background-color: var(--dark-color);
+  color: var(--clear-color);
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+
+

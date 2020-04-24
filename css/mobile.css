@@ -1,0 +1,78 @@
+@media (max-width: 600px) {
+  .header{
+    display: block;
+    text-align:  center;
+    height: auto;
+    padding: 20px 0;
+  }
+  .anime__logo{
+    width: 100%;
+  }
+  .anime__logo img{
+    margin-left: initial;
+  }
+  .menu ul {
+    display: block;
+  }
+  .menu ul li {
+    margin-right: initial;
+    margin-top: 20px;
+  }
+
+  /* PRODUCTOS */
+  .hero h1 {
+    height: auto;
+    padding: 20px 20px;
+    width: 100%;
+    margin: 0;
+    font-size: 25px;
+  }
+  .products{
+    display: inherit;
+    height: auto;
+    background-image: none;
+    background-color: var(--second-color);
+    padding: 20px;
+  }
+  .product{
+    margin-top: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .main_section{
+    padding: 4%;
+  }
+  /* BENEFITS */
+  .benefit, .mention__item--container{
+    display: inherit;
+    margin: auto;
+  }
+  
+  .benefit__item img {
+    width: 100px;
+  }
+  .benefit__item, .mention__item{
+    width: 100%;
+  }
+  .mention__item p {
+    padding: 0 10px 10px;
+  }
+
+  .footer {
+    text-align: center;
+    display: inherit;
+    height: auto;
+  }
+
+  /* PRODUCTOS */
+  .product__image{
+    width: 100%;
+  }
+  .product__description{
+    width: 100%;
+  }
+  .row{
+    display: inherit;
+  }
+
+}
